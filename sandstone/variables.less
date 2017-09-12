@@ -8,14 +8,14 @@
 //## Gray and brand colors for use across Bootstrap.
 
 @gray-base:              #000;
-@gray-darker:            #3E3F3A;
+@gray-darker:            #d00000;
 @gray-dark:              #8E8C84;
-@gray:                   #98978B;
-@gray-light:             #DFD7CA;
+@gray:                   #FFFFFF;
+@gray-light:             #4c4c4b;
 @gray-lighter:           #F8F5F0;
 
 @brand-primary:         #325D88;
-@brand-success:         #93C54B;
+@brand-success:         #d00000;
 @brand-info:            #29ABE0;
 @brand-warning:         #F47C3C;
 @brand-danger:          #d9534f;
@@ -26,7 +26,7 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #fff;
+@body-bg:               #FEFDFA;
 //** Global text color on `<body>`.
 @text-color:            #3E3F3A;
 
@@ -42,13 +42,13 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  'Tungsten A','Tungsten B', Arial, sans-serif;
+@font-family-serif:       'Mercury SSm A','Mercury SSm B',Georgia,serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@font-size-base:          18px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
@@ -107,7 +107,7 @@
 @border-radius-small:       3px;
 
 //** Global color for active items (e.g., navs or dropdowns).
-@component-active-color:    @gray;
+@component-active-color:    @gray-light;
 //** Global background color for active items (e.g., navs or dropdowns).
 @component-active-bg:       @gray-lighter;
 
@@ -232,7 +232,7 @@
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-@dropdown-bg:                    #fff;
+@dropdown-bg:                    @gray-light;
 //** Dropdown menu `border-color`.
 @dropdown-border:                @gray-light;
 //** Dropdown menu `border-color` **for IE8**.
@@ -431,7 +431,7 @@
 @nav-tabs-link-hover-border-color:          @gray-light;
 
 @nav-tabs-active-link-hover-bg:             @body-bg;
-@nav-tabs-active-link-hover-color:          @gray;
+@nav-tabs-active-link-hover-color:          @gray-dark;
 @nav-tabs-active-link-hover-border-color:   @gray-light;
 
 @nav-tabs-justified-link-border-color:            @gray-light;

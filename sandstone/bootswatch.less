@@ -12,7 +12,7 @@
 // Navbar =====================================================================
 
 .sandstone {
-  font-size: 11px;
+  font-size: 16px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ input,
   & > li > a {
     background-color: @gray-lighter;
     border-color: @nav-tabs-border-color;
-    color: @gray;
+    color: @gray-dark;
   }
 
   > li.disabled > a:hover {
@@ -196,4 +196,9 @@ input,
       color: @gray;
     }
   }
+}
+.filetree-btn {
+  /*border-top: 1px solid #93c54b;*/
+  border-bottom: 2px solid @gray-dark !important;
+  /*color: inherit;*/
 }
