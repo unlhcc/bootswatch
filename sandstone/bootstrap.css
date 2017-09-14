@@ -6753,13 +6753,13 @@ button.close {
   }
 }
 .sandstone {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
 }
 .navbar .nav > li > a {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -6770,7 +6770,7 @@ button.close {
 }
 .btn {
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -6796,7 +6796,7 @@ input:focus,
   box-shadow: none;
 }
 .nav {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -6828,7 +6828,7 @@ input:focus,
   border-color: transparent;
 }
 .breadcrumb {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -6838,13 +6838,13 @@ input:focus,
   color: #ffffff;
 }
 .pagination {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
 }
 .pager {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -6853,7 +6853,7 @@ input:focus,
   color: #ffffff;
 }
 .dropdown-menu > li > a {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -6863,7 +6863,7 @@ input:focus,
   color: #fff;
 }
 .tooltip {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
@@ -6891,14 +6891,14 @@ input:focus,
 }
 .panel .panel-heading,
 .panel .panel-title {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
   color: #fff;
 }
 .panel .panel-footer {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   text-transform: uppercase;
